@@ -265,10 +265,6 @@
             font-weight: bold;
             margin-bottom: 12px;
         }
-
-        > .description {
-
-        }
     }
 }
 
@@ -360,7 +356,7 @@
         font-weight: bold;
         display: flex;
         align-items: center;
-        
+
         &:after {
             content: "";
             width: 16px;
@@ -380,4 +376,125 @@
 
 .bookstore-banner {
     background: url(../images/bookstore.png) center/cover no-repeat;
+}
+
+
+.expanded-testimonial {
+    padding: 32px 48px;
+    background: white;
+    border: 1px solid #66C812;
+
+    > .name {
+        color: #000;
+        display: block;
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+
+    > .testimonial {
+        color: #000;
+    }
+}
+
+.testimonial-info {
+    > .name {
+        color: #000;
+        display: block;
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+
+    > .testimonial {
+        color: #000;
+    }
+}
+
+.single-testimonial {
+    padding: 32px 48px 64px;
+    text-align: center;
+    position: relative;
+
+    > .id {
+        margin-bottom: 16px;
+    }
+
+    > .toggle {
+        position: absolute;
+        right: 12px;
+        bottom: 12px;
+        z-index: 2;
+    }
+
+    > .expanded-testimonial {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: none;
+    }
+
+    &.-active {
+        border: 0;
+
+        > .expanded-testimonial {
+            display: block;
+        }
+
+        > .toggle {
+            transform: rotate(45deg);
+        }
+    }
+
+    &:before {
+        content: "";
+        height: 1px;
+        width: 100%;
+        margin: auto;
+        background: #666666;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    &:after {
+        content: "";
+        height: 1px;
+        width: 100%;
+        margin: auto;
+        background: #66C812;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+
+.testimonial-list {
+    display: flex;
+
+    > .single-testimonial {
+        margin-right: 64px;
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+}
+
+
+.testimonials-section {
+    max-width: 1240px;
+    margin: auto;
+    padding: 100px 32px;
+
+    > .title {
+        text-align: center;
+        font-size: 26px;
+        font-weight: bold;
+        margin-bottom: 64px;
+        color: #000;
+        letter-spacing: 1px;
+    }
 }

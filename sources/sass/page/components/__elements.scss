@@ -48,3 +48,11 @@
         }
     }
 }
+
+.toggle {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/icons/plus.svg) center/contain no-repeat;
+    cursor: pointer;
+}
