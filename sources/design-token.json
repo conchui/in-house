@@ -1,0 +1,107 @@
+{
+    "color": {
+        "black": "#000000",
+        "light-blue": "#9DF7FC",
+        "blue-green": "#39A7A0",
+        "blue-green-text": "#2D827C",
+        "mild-black": "#666666",
+        "dark-black": "#333333",
+        "white": "#FFFFFF"
+    },
+
+    "border": {
+        "faint-dark-hairline": "1px solid #000"
+
+    },
+
+    "space": {
+        "quarter": "2px",
+        "half": "4px",
+        "default": "8px",
+        "secondary": "12px",
+        "double": "16px",
+        "triple": "24px",
+        "quad": "32px",
+        "double-triple": "48px",
+        "double-quad": "64px",
+        "big": "72px",
+        "wide": "96px"
+    },
+
+    "padding": {
+        "clear": "0",
+        "full": "$quad-space"
+    },
+
+    "position": {
+        "centered": "auto",
+        "lateral-centered": "0 auto",
+        "vertically-centered": "auto 0",
+        "push-the-right": "0 0 0 auto",
+        "push-the-left": "0 auto 0 0"
+    },
+
+    "font": {
+        "ui": "Questrial, Arial, sans-serif",
+        "body": "Questrial, Arial, sans-serif",
+        "font-awesome": "\"FontAwesome\""
+    },
+
+    "font-weight": {
+        "light": 300,
+        "regular": 400,
+        "semi-bold": 600,
+        "bold": 700
+    },
+
+    "font-size": {
+        "fourty-eight": "3.000rem",
+        "thirty-four": "2.125rem",
+        "twenty-eight": "1.75rem",
+        "twenty-four": "1.5rem",
+        "twenty-two": "1.375rem",
+        "twenty": "1.250rem",
+        "eighteen": "1.125rem",
+        "sixteen": "1rem",
+        "fourteen": "0.875rem",
+        "twelve": "0.750rem",
+        "ten": "0.625rem",
+        "nine": "0.563rem"
+    },
+
+    "letter-tracking": {
+        "wide": "0.18em",
+        "tight": "0.12em"
+    },
+
+    "icon-size": {
+        "tiny": "8px",
+        "smallest": "10px",
+        "small": "12px",
+        "default": "16px",
+        "medium": "18px",
+        "double-medium": "36px",
+        "large": "24px",
+        "largest": "32px"
+    },
+
+    "": {
+        "wrapper-width" : "1440px",
+        "max-container-width": "1600px",
+        "icon-size": "24px",
+        "icon-column-count": 12,
+        "icon-row-count": 12,
+
+        "fully-opaque": 1,
+        "opaque": 0.8,
+        "slightly-opaque": 0.5,
+        "transparent": 0.2,
+        "almost-transparent": 0.1,
+        "fully-transparent": 0,
+        "amount": 0,
+        "gradient-spread": "100%",
+        "overlay-height": "40%",
+        "overlay-transparency": 1,
+        "content-limit": "768px"
+    }
+}

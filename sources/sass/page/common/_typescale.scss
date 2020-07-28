@@ -1,0 +1,158 @@
+/*---------------------------------------------------
+HEADING
+----------------------------------------------------*/
+
+//48px
+@mixin font-size-48($font-type: $ui-font, $weight: normal) {
+  font-size: $fourty-eight-font-size;
+  font-family: $font-type;
+  line-height: 1;
+  font-weight: $weight;
+}
+
+//34px
+@mixin font-size-34($font-type: $ui-font, $weight: normal) {
+  font-size: $thirty-four-font-size;
+  font-family: $font-type;
+  line-height: 1;
+  font-weight: $weight;
+}
+
+//28px
+@mixin font-size-28($font-type: $ui-font, $weight: normal) {
+  font-size: $twenty-eight-font-size;
+  font-family: $font-type;
+  line-height: 1;
+  font-weight: $weight;
+}
+
+//24px
+@mixin font-size-24($font-type: $ui-font, $weight: normal) {
+  font-size: $twenty-four-font-size;
+  font-family: $font-type;
+  line-height: 1;
+  font-weight: $weight;
+}
+
+//22px
+@mixin font-size-22($font-type: $ui-font, $weight: normal) {
+  font-size: $twenty-two-font-size;
+  font-family: $font-type;
+  line-height: 1;
+  font-weight: $weight;
+}
+
+//20px
+@mixin font-size-20($font-type: $ui-font, $weight: normal) {
+  font-size: $twenty-font-size;
+  font-family: $font-type;
+  line-height: 1;
+  font-weight: $weight;
+}
+
+//18px
+@mixin font-size-18($font-type: $ui-font, $weight: normal) {
+  font-size: $eighteen-font-size;
+  font-family: $font-type;
+  line-height: 1;
+  font-weight: $weight;
+}
+
+//16px
+@mixin font-size-16($font-type: $ui-font, $weight: normal) {
+  font-size: $sixteen-font-size;
+  font-family: $font-type;
+  line-height: 1;
+  font-weight: $weight;
+}
+
+//14px
+@mixin font-size-14($font-type: $ui-font, $weight: normal) {
+  font-size: $fourteen-font-size;
+  font-family: $font-type;
+  line-height: 1;
+  font-weight: $weight;
+}
+
+//12px
+@mixin font-size-12($font-type: $ui-font, $weight: normal) {
+  font-size: $twelve-font-size;
+  font-family: $font-type;
+  line-height: 1;
+  font-weight: $weight;
+}
+
+//10px
+@mixin font-size-10($font-type: $ui-font, $weight: normal) {
+  font-size: $ten-font-size;
+  font-family: $font-type;
+  line-height: 1;
+  font-weight: $weight;
+}
+
+//10px
+@mixin font-size-9($font-type: $ui-font, $weight: normal) {
+  font-size: $nine-font-size;
+  font-family: $font-type;
+  line-height: 1;
+  font-weight: $weight;
+}
+
+/*---------------------------------------------------
+PARAGRAPHS
+----------------------------------------------------*/
+
+// // 21px
+// @mixin open-paragraph($font-type: $ui-font, $weight: normal) {
+//     font-size : $irregular-font-size;
+//     font-family : $font-type;
+//     line-height : 1;
+//     font-weight : $weight;
+// }
+
+// // 18px
+// @mixin normal-paragraph($font-type: $ui-font, $weight: normal) {
+//     font-size : $medium-font-size;
+//     font-family : $font-type;
+//     line-height : 1.5;
+//     font-weight : $weight;
+// }
+
+// // 16px
+// @mixin small-paragraph($font-type: $ui-font, $weight: normal) {
+//     font-size : $base-font-size;
+//     font-family : $font-type;
+//     line-height : 1.6;
+//     font-weight : $weight;
+// }
+
+// // 14px
+// @mixin caption($font-type: $ui-font, $weight: normal) {
+//     font-size : $small-font-size;
+//     font-family : $font-type;
+//     line-height : 1.5;
+//     font-weight : $weight;
+// }
+
+
+@mixin basic-title() {
+  @include font-size-28($body-font, bold);
+  letter-spacing: 0.3em;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: $blue-green-text-color;
+
+  @include on(768px) {
+    @include font-size-22($body-font, bold);
+  }
+}
+
+@mixin basic-description() {
+  @include font-size-14();
+  color: $mild-black-color;
+  line-height: 20px;
+}
+
+/*---------------------------------------------------
+LABELS
+----------------------------------------------------*/

@@ -1,0 +1,21 @@
+/*---------------------------------------------------
+Base Typesetting
+----------------------------------------------------*/
+
+a {
+  color: $mild-black-color;
+  text-decoration: none;
+}
+
+body, html {
+  font                    : 400 16px / 1.618 $ui-font;
+  font-variant-ligatures  : common-ligatures;
+  text-rendering          : optimizeLegibility;
+  font-feature-settings   : "kern"; /* standard */
+  font-kerning            : normal; /* Safari 7+, Firefox 24+, Chrome 33(?)+, Opera 21+*/
+  -webkit-font-smoothing  : antialiased;
+  -moz-osx-font-smoothing : grayscale;
+  color                   : $mild-black-color;
+
+  @include on(mobile) { font-size: 14px; }
+}

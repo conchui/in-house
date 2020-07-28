@@ -1,0 +1,20 @@
+# .gitignore files that shouldnt be included and tracked into the repo
+# Ignore cache
+.sass-cache/
+
+# IDE specific configuration
+.idea/
+.vscode/
+
+# Ignore node js modules
+node_modules
+*-lock*
+
+# Ignore Compiled CSS files.
+assets/css/*
+assets/js/*
+
+# Ignore MacOSX Generated Files
+._*
+.DS_Store
+deployment-path-config.js

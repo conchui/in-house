@@ -1,0 +1,191 @@
+/*---------------------------------------------------
+ GLOBAL MIXINS
+----------------------------------------------------*/
+/* Debugging tool */
+@mixin debug() {
+    $red: transparentize($color: red, $amount: 0.75);
+
+    background: $red;
+    * { background: $red; }
+}
+
+@mixin vertical-display() {
+	display        : flex;
+	flex-direction : column;
+}
+
+@mixin horizontal-display() {
+	display        : flex;
+	flex-direction : row;
+}
+
+@mixin rotate-180deg() {
+	-webkit-transform   : rotate(180deg);
+	-moz-transform      : rotate(180deg);
+	-ms-transform       : rotate(180deg);
+	-o-transform        : rotate(180deg);
+}
+
+@mixin rotate-element( $rotate-value : 90deg ) {
+	-webkit-transform   : rotate($rotate-value);
+	-moz-transform      : rotate($rotate-value);
+	-ms-transform       : rotate($rotate-value);
+	-o-transform        : rotate($rotate-value);
+}
+
+@mixin visually-hidden() {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+
+    clip: rect(1px, 1px, 1px, 1px);
+    padding:0 !important;
+    border:0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+/*
+    For responsive definition
+*/
+@mixin on($media) {
+
+    @if $media == edge {
+        @media all and (max-width : 1570px) { @content; }
+    } @else if $media == large-display {
+        @media all and (max-width : 1280px) { @content; }
+    } @else if $media == desktop-smallest {
+        @media all and (max-width : 1024px) and (max-height : 640px) { @content; }
+    } @else if $media == tablet-landscape {
+        @media all and (max-width : 1024px) { @content; }
+    } @else if $media == tablet-portrait {
+        @media all and (max-width : 768px) { @content; }
+    } @else if $media == mobile {
+        @media all and (max-width : 640px) { @content; }
+    } @else if $media == small-device {
+        @media all and (max-width : 480px) { @content; }
+    } @else {
+        @media all and (max-width : $media) { @content; }
+    }
+}
+
+/*
+    Get the icon from the sprite.
+    It automatically computes the position of the
+    icon base on the grid position
+
+    x = column
+    y = row
+*/
+
+@mixin icon($col, $row, $size:$icon-size, $is-responsive:false) {
+
+    @if ($is-responsive == false) {
+        $bgX : -$size * ($col - 1);
+        $bgY : -$size * ($row - 1);
+        $bgSize : $size * $icon-column-count;
+
+        background      : url($icon-sprite-file) $bgX $bgY no-repeat;
+        background-size : $bgSize;
+    } @else {
+		
+        // This is the formula use to make icon sprite responsive
+        $bgX : (100% / ($icon-column-count - 1)) * ($col - 1);
+        $bgY : (100% / ($icon-row-count - 1)) * ($row - 1);
+        $bgSize : (100% * $icon-column-count);
+
+        background      : url($icon-sprite-file) $bgX $bgY no-repeat;
+        background-size : $bgSize;
+    }
+
+}
+
+@mixin square($size) {
+    // width  : 100%;
+    width: $size;
+    height : $size;
+}
+
+@mixin square-icon($col, $row, $size:$icon-size) {
+    @include icon($col, $row, $size);
+    @include square($size);
+}
+
+/*---------------------------------------------------
+ LABELED ICONS
+----------------------------------------------------*/
+/* Add icons with matching labels */
+$position: left;
+@mixin labeled-icon($col, $row, $size:$default-icon-size, $position:left) {
+
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    align-content: center;
+
+    @if ($position=='left') {
+        &:before {
+            @include square-icon($col, $row, $size);
+            content: '';
+            display: block;
+            margin: auto $secondary-space auto 0;
+        }
+    }
+
+    @if ($position=='right') {
+        &:after {
+            @include square-icon($col, $row, $size);
+            content: '';
+            display: block;
+            margin: auto 0 auto auto;
+        }
+    }
+
+    @if ($position=='center') {
+        &:after {
+            @include square-icon($col, $row, $size);
+            content: '';
+            display: block;
+            margin: auto $triple-space;
+        }
+    }
+}
+
+/* Hide the icon */
+@mixin hide-icon() {
+    &:before,
+    &:after {
+        display: none;
+    }
+}
+
+@mixin wrapper-no-paddings-margin() {
+    max-width  : $wrapper-width;
+    width      : 100%;
+}
+
+@mixin wrapper($offset:0) {
+    width      : 100%;
+    padding    : 0 $quad-space;
+    max-width  : $wrapper-width + $offset;
+    margin     : 0 auto;
+    box-sizing : border-box;
+}
+
+@mixin wrapper-no-paddings() {
+    width      : 100%;
+    max-width  : $wrapper-width;
+    margin     : 0 auto;
+    box-sizing : border-box;
+}
+
+@mixin wrapped-content--clear-side-padding() {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@mixin side-paddings() {
+    padding : 0 $quad-space;
+}

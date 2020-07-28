@@ -1,0 +1,39 @@
+.text-menu {
+  display: flex;
+}
+
+.icon-menu {
+  display: flex;
+  padding: 0 32px;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  max-width: 1240px;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: #FFFFFF;
+  z-index: 1;
+
+  &:after {
+    content: "";
+    height: 4px;
+    width: 100%;
+    background: rgba(#666666, 0.2);
+    position: absolute;
+    bottom: 0;
+  }
+}

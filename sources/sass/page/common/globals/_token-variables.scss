@@ -1,0 +1,126 @@
+/* This file is generated through a design token. Don't edit this file */
+/*---------------------------------------------------
+  COLOR
+---------------------------------------------------*/
+$black-color: #000000;
+$light-blue-color: #9DF7FC;
+$blue-green-color: #39A7A0;
+$blue-green-text-color: #2D827C;
+$mild-black-color: #666666;
+$dark-black-color: #333333;
+$white-color: #FFFFFF;
+
+
+/*---------------------------------------------------
+  BORDER
+---------------------------------------------------*/
+$faint-dark-hairline-border: 1px solid #000;
+
+
+/*---------------------------------------------------
+  SPACE
+---------------------------------------------------*/
+$quarter-space: 2px;
+$half-space: 4px;
+$default-space: 8px;
+$secondary-space: 12px;
+$double-space: 16px;
+$triple-space: 24px;
+$quad-space: 32px;
+$double-triple-space: 48px;
+$double-quad-space: 64px;
+$big-space: 72px;
+$wide-space: 96px;
+
+
+/*---------------------------------------------------
+  PADDING
+---------------------------------------------------*/
+$clear-padding: 0;
+$full-padding: $quad-space;
+
+
+/*---------------------------------------------------
+  POSITION
+---------------------------------------------------*/
+$centered-position: auto;
+$lateral-centered-position: 0 auto;
+$vertically-centered-position: auto 0;
+$push-the-right-position: 0 0 0 auto;
+$push-the-left-position: 0 auto 0 0;
+
+
+/*---------------------------------------------------
+  FONT
+---------------------------------------------------*/
+$ui-font: Questrial, Arial, sans-serif;
+$body-font: Questrial, Arial, sans-serif;
+$font-awesome-font: "FontAwesome";
+
+
+/*---------------------------------------------------
+  FONT-WEIGHT
+---------------------------------------------------*/
+$light-font-weight: 300;
+$regular-font-weight: 400;
+$semi-bold-font-weight: 600;
+$bold-font-weight: 700;
+
+
+/*---------------------------------------------------
+  FONT-SIZE
+---------------------------------------------------*/
+$fourty-eight-font-size: 3.000rem;
+$thirty-four-font-size: 2.125rem;
+$twenty-eight-font-size: 1.75rem;
+$twenty-four-font-size: 1.5rem;
+$twenty-two-font-size: 1.375rem;
+$twenty-font-size: 1.250rem;
+$eighteen-font-size: 1.125rem;
+$sixteen-font-size: 1rem;
+$fourteen-font-size: 0.875rem;
+$twelve-font-size: 0.750rem;
+$ten-font-size: 0.625rem;
+$nine-font-size: 0.563rem;
+
+
+/*---------------------------------------------------
+  LETTER-TRACKING
+---------------------------------------------------*/
+$wide-letter-tracking: 0.18em;
+$tight-letter-tracking: 0.12em;
+
+
+/*---------------------------------------------------
+  ICON-SIZE
+---------------------------------------------------*/
+$tiny-icon-size: 8px;
+$smallest-icon-size: 10px;
+$small-icon-size: 12px;
+$default-icon-size: 16px;
+$medium-icon-size: 18px;
+$double-medium-icon-size: 36px;
+$large-icon-size: 24px;
+$largest-icon-size: 32px;
+
+
+/*---------------------------------------------------
+  NON-SCOPED VARIABLES
+---------------------------------------------------*/
+$wrapper-width: 1440px;
+$max-container-width: 1600px;
+$icon-size: 24px;
+$icon-column-count: 12;
+$icon-row-count: 12;
+$fully-opaque: 1;
+$opaque: 0.8;
+$slightly-opaque: 0.5;
+$transparent: 0.2;
+$almost-transparent: 0.1;
+$fully-transparent: 0;
+$amount: 0;
+$gradient-spread: 100%;
+$overlay-height: 40%;
+$overlay-transparency: 1;
+$content-limit: 768px;
+

@@ -1,0 +1,490 @@
+{
+  "globals": [
+    {
+      "variable": "$black-color",
+      "value": "#000000",
+      "compiledValue": "#000000"
+    },
+    {
+      "variable": "$light-blue-color",
+      "value": "#9DF7FC",
+      "compiledValue": "#9DF7FC"
+    },
+    {
+      "variable": "$blue-green-color",
+      "value": "#39A7A0",
+      "compiledValue": "#39A7A0"
+    },
+    {
+      "variable": "$blue-green-text-color",
+      "value": "#2D827C",
+      "compiledValue": "#2D827C"
+    },
+    {
+      "variable": "$mild-black-color",
+      "value": "#666666",
+      "compiledValue": "#666666"
+    },
+    {
+      "variable": "$dark-black-color",
+      "value": "#333333",
+      "compiledValue": "#333333"
+    },
+    {
+      "variable": "$white-color",
+      "value": "#FFFFFF",
+      "compiledValue": "#FFFFFF"
+    },
+    {
+      "variable": "$faint-dark-hairline-border",
+      "value": "1px solid #000",
+      "compiledValue": "1pxsolid#000"
+    },
+    {
+      "variable": "$quarter-space",
+      "value": "2px",
+      "compiledValue": "2px"
+    },
+    {
+      "variable": "$half-space",
+      "value": "4px",
+      "compiledValue": "4px"
+    },
+    {
+      "variable": "$default-space",
+      "value": "8px",
+      "compiledValue": "8px"
+    },
+    {
+      "variable": "$secondary-space",
+      "value": "12px",
+      "compiledValue": "12px"
+    },
+    {
+      "variable": "$double-space",
+      "value": "16px",
+      "compiledValue": "16px"
+    },
+    {
+      "variable": "$triple-space",
+      "value": "24px",
+      "compiledValue": "24px"
+    },
+    {
+      "variable": "$quad-space",
+      "value": "32px",
+      "compiledValue": "32px"
+    },
+    {
+      "variable": "$double-triple-space",
+      "value": "48px",
+      "compiledValue": "48px"
+    },
+    {
+      "variable": "$double-quad-space",
+      "value": "64px",
+      "compiledValue": "64px"
+    },
+    {
+      "variable": "$big-space",
+      "value": "72px",
+      "compiledValue": "72px"
+    },
+    {
+      "variable": "$wide-space",
+      "value": "96px",
+      "compiledValue": "96px"
+    },
+    {
+      "variable": "$clear-padding",
+      "value": "0",
+      "compiledValue": "0"
+    },
+    {
+      "variable": "$full-padding",
+      "value": "$quad-space",
+      "compiledValue": "32px"
+    },
+    {
+      "variable": "$centered-position",
+      "value": "auto",
+      "compiledValue": "auto"
+    },
+    {
+      "variable": "$lateral-centered-position",
+      "value": "0 auto",
+      "compiledValue": "0auto"
+    },
+    {
+      "variable": "$vertically-centered-position",
+      "value": "auto 0",
+      "compiledValue": "auto0"
+    },
+    {
+      "variable": "$push-the-right-position",
+      "value": "0 0 0 auto",
+      "compiledValue": "000auto"
+    },
+    {
+      "variable": "$push-the-left-position",
+      "value": "0 auto 0 0",
+      "compiledValue": "0auto00"
+    },
+    {
+      "variable": "$ui-font",
+      "value": "Questrial, Arial, sans-serif",
+      "compiledValue": "Questrial,Arial,sans-serif"
+    },
+    {
+      "variable": "$body-font",
+      "value": "Questrial, Arial, sans-serif",
+      "compiledValue": "Questrial,Arial,sans-serif"
+    },
+    {
+      "variable": "$font-awesome-font",
+      "value": "FontAwesome",
+      "compiledValue": "FontAwesome"
+    },
+    {
+      "variable": "$light-font-weight",
+      "value": "300",
+      "compiledValue": "300"
+    },
+    {
+      "variable": "$regular-font-weight",
+      "value": "400",
+      "compiledValue": "400"
+    },
+    {
+      "variable": "$semi-bold-font-weight",
+      "value": "600",
+      "compiledValue": "600"
+    },
+    {
+      "variable": "$bold-font-weight",
+      "value": "700",
+      "compiledValue": "700"
+    },
+    {
+      "variable": "$fourty-eight-font-size",
+      "value": "3.000rem",
+      "compiledValue": "3rem"
+    },
+    {
+      "variable": "$thirty-four-font-size",
+      "value": "2.125rem",
+      "compiledValue": "2.125rem"
+    },
+    {
+      "variable": "$twenty-eight-font-size",
+      "value": "1.75rem",
+      "compiledValue": "1.75rem"
+    },
+    {
+      "variable": "$twenty-four-font-size",
+      "value": "1.5rem",
+      "compiledValue": "1.5rem"
+    },
+    {
+      "variable": "$twenty-two-font-size",
+      "value": "1.375rem",
+      "compiledValue": "1.375rem"
+    },
+    {
+      "variable": "$twenty-font-size",
+      "value": "1.250rem",
+      "compiledValue": "1.25rem"
+    },
+    {
+      "variable": "$eighteen-font-size",
+      "value": "1.125rem",
+      "compiledValue": "1.125rem"
+    },
+    {
+      "variable": "$sixteen-font-size",
+      "value": "1rem",
+      "compiledValue": "1rem"
+    },
+    {
+      "variable": "$fourteen-font-size",
+      "value": "0.875rem",
+      "compiledValue": "0.875rem"
+    },
+    {
+      "variable": "$twelve-font-size",
+      "value": "0.750rem",
+      "compiledValue": "0.75rem"
+    },
+    {
+      "variable": "$ten-font-size",
+      "value": "0.625rem",
+      "compiledValue": "0.625rem"
+    },
+    {
+      "variable": "$nine-font-size",
+      "value": "0.563rem",
+      "compiledValue": "0.563rem"
+    },
+    {
+      "variable": "$wide-letter-tracking",
+      "value": "0.18em",
+      "compiledValue": "0.18em"
+    },
+    {
+      "variable": "$tight-letter-tracking",
+      "value": "0.12em",
+      "compiledValue": "0.12em"
+    },
+    {
+      "variable": "$tiny-icon-size",
+      "value": "8px",
+      "compiledValue": "8px"
+    },
+    {
+      "variable": "$smallest-icon-size",
+      "value": "10px",
+      "compiledValue": "10px"
+    },
+    {
+      "variable": "$small-icon-size",
+      "value": "12px",
+      "compiledValue": "12px"
+    },
+    {
+      "variable": "$default-icon-size",
+      "value": "16px",
+      "compiledValue": "16px"
+    },
+    {
+      "variable": "$medium-icon-size",
+      "value": "18px",
+      "compiledValue": "18px"
+    },
+    {
+      "variable": "$double-medium-icon-size",
+      "value": "36px",
+      "compiledValue": "36px"
+    },
+    {
+      "variable": "$large-icon-size",
+      "value": "24px",
+      "compiledValue": "24px"
+    },
+    {
+      "variable": "$largest-icon-size",
+      "value": "32px",
+      "compiledValue": "32px"
+    },
+    {
+      "variable": "$wrapper-width",
+      "value": "1440px",
+      "compiledValue": "1440px"
+    },
+    {
+      "variable": "$max-container-width",
+      "value": "1600px",
+      "compiledValue": "1600px"
+    },
+    {
+      "variable": "$icon-size",
+      "value": "24px",
+      "compiledValue": "24px"
+    },
+    {
+      "variable": "$icon-column-count",
+      "value": "12",
+      "compiledValue": "12"
+    },
+    {
+      "variable": "$icon-row-count",
+      "value": "12",
+      "compiledValue": "12"
+    },
+    {
+      "variable": "$fully-opaque",
+      "value": "1",
+      "compiledValue": "1"
+    },
+    {
+      "variable": "$opaque",
+      "value": "0.8",
+      "compiledValue": "0.8"
+    },
+    {
+      "variable": "$slightly-opaque",
+      "value": "0.5",
+      "compiledValue": "0.5"
+    },
+    {
+      "variable": "$transparent",
+      "value": "0.2",
+      "compiledValue": "0.2"
+    },
+    {
+      "variable": "$almost-transparent",
+      "value": "0.1",
+      "compiledValue": "0.1"
+    },
+    {
+      "variable": "$fully-transparent",
+      "value": "0",
+      "compiledValue": "0"
+    },
+    {
+      "variable": "$amount",
+      "value": "0",
+      "compiledValue": "0"
+    },
+    {
+      "variable": "$gradient-spread",
+      "value": "100%",
+      "compiledValue": "100%"
+    },
+    {
+      "variable": "$overlay-height",
+      "value": "40%",
+      "compiledValue": "40%"
+    },
+    {
+      "variable": "$overlay-transparency",
+      "value": "1",
+      "compiledValue": "1"
+    },
+    {
+      "variable": "$content-limit",
+      "value": "768px",
+      "compiledValue": "768px"
+    },
+    {
+      "variable": "$red",
+      "value": "transparentize($color: red, $amount: 0.75)",
+      "mapValue": [
+        {
+          "variable": "color",
+          "value": "red",
+          "compiledValue": "red"
+        },
+        {
+          "variable": "amount",
+          "value": "0.75",
+          "compiledValue": "0.75"
+        }
+      ],
+      "compiledValue": "rgba(255,0,0,0.25)"
+    },
+    {
+      "variable": "$position",
+      "value": "left",
+      "compiledValue": "left"
+    },
+    {
+      "variable": "$size",
+      "value": "$default-icon-size, $position:left) {text-decoration: none",
+      "mapValue": [
+        {
+          "variable": "position",
+          "value": "left",
+          "compiledValue": "left"
+        },
+        {
+          "variable": "text-decoration",
+          "value": "none",
+          "compiledValue": "none"
+        }
+      ],
+      "compiledValue": "16px,left"
+    }
+  ],
+  "mixins": [
+    {
+      "name": "debug",
+      "parameters": []
+    },
+    {
+      "name": "vertical-display",
+      "parameters": []
+    },
+    {
+      "name": "horizontal-display",
+      "parameters": []
+    },
+    {
+      "name": "rotate-180deg",
+      "parameters": []
+    },
+    {
+      "name": "rotate-element",
+      "parameters": [
+        "$rotate-value : 90deg"
+      ]
+    },
+    {
+      "name": "visually-hidden",
+      "parameters": []
+    },
+    {
+      "name": "on",
+      "parameters": [
+        "$media"
+      ]
+    },
+    {
+      "name": "icon",
+      "parameters": [
+        "$col",
+        "$row",
+        "$size:$icon-size",
+        "$is-responsive:false"
+      ]
+    },
+    {
+      "name": "square",
+      "parameters": [
+        "$size"
+      ]
+    },
+    {
+      "name": "square-icon",
+      "parameters": [
+        "$col",
+        "$row",
+        "$size:$icon-size"
+      ]
+    },
+    {
+      "name": "labeled-icon",
+      "parameters": [
+        "$col",
+        "$row",
+        "$size:$default-icon-size",
+        "$position:left"
+      ]
+    },
+    {
+      "name": "hide-icon",
+      "parameters": []
+    },
+    {
+      "name": "wrapper-no-paddings-margin",
+      "parameters": []
+    },
+    {
+      "name": "wrapper",
+      "parameters": [
+        "$offset:0"
+      ]
+    },
+    {
+      "name": "wrapper-no-paddings",
+      "parameters": []
+    },
+    {
+      "name": "wrapped-content--clear-side-padding",
+      "parameters": []
+    },
+    {
+      "name": "side-paddings",
+      "parameters": []
+    }
+  ]
+}

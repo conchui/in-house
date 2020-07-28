@@ -1,0 +1,50 @@
+.logo {
+    background: url(../images/logo-full-01.svg) center/contain no-repeat;
+    width: 140px;
+    height: 60px;
+}
+
+.text-menu {
+    > .item {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 22px 32px;
+        border-left: 2px solid rgba(#666666, 0.2);
+        
+        &.-green {
+            background: #66C812;
+            color: #FFFFFF;
+            border-color: transparent;
+        }
+    }
+}
+
+
+.icon-menu {
+    > .item {
+        display: block;
+        width: 36px;
+        height: 36px;
+
+        border: 1px solid $mild-black-color;
+        border-radius: 50%;
+        margin-right: 20px;
+
+
+        &.-mail {
+            background: url(../images/icons/email.svg) center/contain no-repeat;
+        }
+
+        &.-phone {
+            background: url(../images/icons/phone.svg) center/contain no-repeat;
+        }
+
+        &.-menu {
+            background: url(../images/icons/menu.svg) center/contain no-repeat;
+        }
+    
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+}

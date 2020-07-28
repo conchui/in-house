@@ -1,0 +1,40 @@
+{
+    "name": "geneis-components-build",
+    "version": "1.0.0",
+    "description": "Genesis Components Build",
+    "keywords": [],
+    "author": "frostdesigngroup",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "babelify": "^8.0.0",
+        "browserify": "^14.5.0",
+        "clean-css": "^4.1.9",
+        "fancy-log": "^1.3.2",
+        "glob": "^7.1.2",
+        "gulp": "^4.0.0",
+        "gulp-autoprefixer": "^4.0.0",
+        "gulp-clean-css": "^3.9.2",
+        "gulp-sass": "^3.1.0",
+        "gulp-sass-export": "0.0.3",
+        "gulp-sourcemaps": "^2.6.1",
+        "gulp-uglify": "^3.0.0",
+        "js-beautify": "^1.7.5",
+        "lodash": "^4.17.4",
+        "ncp": "^2.0.0",
+        "path": "^0.12.7",
+        "prettier": "^1.19.1",
+        "prettier-stylelint": "^0.4.2",
+        "stylelint": "^13.2.0",
+        "stylelint-config-standard": "^20.0.0",
+        "through2": "^2.0.3",
+        "vinyl-buffer": "^1.0.1",
+        "vinyl-source-stream": "^2.0.0",
+        "watchify": "^3.9.0"
+    },
+    "dependencies": {
+        "stylelint-config-sass-guidelines": "^7.0.0",
+        "vinyl": "^2.2.0"
+    }
+}

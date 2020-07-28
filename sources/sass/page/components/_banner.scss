@@ -1,0 +1,80 @@
+.banner-context {
+    max-width: 1240px;
+    margin: auto;
+    padding: 80px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    > .heading {
+        font-size: 32px;
+        font-weight: bold;
+        color: #FFF;
+        letter-spacing: 1px;
+        line-height: 1.6;
+        max-width: 500px;
+        margin-bottom: 32px;
+    }
+
+    > .description {
+        font-size: 18px;
+        color: #FFF;
+        max-width: 500px;
+        margin-bottom: 24px;
+    }
+
+    > .button {
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        color: #FFF;
+        margin-bottom: 24px;
+        background: #66C812;
+        padding: 12px 24px;
+        border-radius: 4px;
+    }
+
+    > .link {
+        font-size: 14px;
+        font-weight: bold;
+        color: #FFF;
+        letter-spacing: 1px;
+        position: relative;
+
+        &:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -6px;
+            height: 1px;
+            width: 100%;
+            background: #FFF;
+        }
+    }
+}
+
+.banner-container {
+    margin-top: 64px;
+    background: url(../images/banner-image.png) center/cover no-repeat;
+
+    border-bottom: 2px solid #66C812;
+
+    > .promo {
+        text-align: center;
+        color: #FFFFFF;
+        background: #00bcd4;
+        padding: 8px 16px;
+        letter-spacing: 1px;
+
+        > a {
+            color: #FFFFFF;
+            font-weight: bold;
+        }
+
+        &:after {
+            content: "\f178";
+            font-family: $font-awesome-font;
+        }
+    }
+    
+}
