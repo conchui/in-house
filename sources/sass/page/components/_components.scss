@@ -276,8 +276,11 @@
 
     > .showcase-item {
         margin-bottom: 24px;
-    }
 
+        &:last-of-type {
+            margin-bottom: 48px;
+        }
+    }
 }
 
 
@@ -292,12 +295,40 @@
         letter-spacing: 1px;
         margin-bottom: 16px;
     }
+
+    > .link {
+        font-weight: bold;
+        color: #000;
+        display: flex;
+        align-items: center;
+
+        &:after {
+            content: "";
+            width: 16px;
+            height: 12px;
+            display: block;
+            background: url(../images/icons/arrow-small.svg) center/cover no-repeat;
+            margin-left: 12px;
+        }
+    }
 }
 
 .print-showcase {
     max-width: 1240px;
     margin: auto;
-    padding: 100px 32px;
+    padding: 100px 32px 48px;
+    margin-bottom: 100px;
+    position: relative;
 
     display: flex;
+
+    &:after {
+        content: "";
+        height: 1px;
+        width: calc(100% - 64px);
+        margin: auto;
+        background: #666666;
+        position: absolute;
+        bottom: 0;
+    }
 }
