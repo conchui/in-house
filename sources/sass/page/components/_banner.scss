@@ -76,5 +76,22 @@
             font-family: $font-awesome-font;
         }
     }
-    
+
+
+    &.-mini {
+        background-position: 50% -30px;
+
+        > .promo {
+            display: none;
+        }
+
+        > .banner-context {
+            padding: 40px 32px;
+
+            > .button,
+            > .link {
+                display: none;
+            }
+        }
+    }
 }
