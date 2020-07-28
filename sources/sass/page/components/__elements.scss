@@ -2,6 +2,10 @@
     background: url(../images/logo-full-01.svg) center/contain no-repeat;
     width: 140px;
     height: 60px;
+
+    &.-invert {
+        background: url(../images/logo-inverted-01.svg) center/contain no-repeat;
+    }
 }
 
 .text-menu {
