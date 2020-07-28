@@ -332,3 +332,52 @@
         bottom: 0;
     }
 }
+
+.bookstore-context {
+    max-width: 640px;
+    padding: 48px;
+    background: #FFF;
+
+    > .title {
+        font-size: 26px;
+        font-weight: bold;
+
+        color: #000;
+        margin-bottom: 24px;
+    }
+
+    > .description {
+        color: #000;
+        margin-bottom: 24px;
+
+        &:last-of-type {
+            margin-bottom: 48px;
+        }
+    }
+
+    > .link {
+        color: #000;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        
+        &:after {
+            content: "";
+            width: 16px;
+            height: 12px;
+            display: block;
+            background: url(../images/icons/arrow-small.svg) center/cover no-repeat;
+            margin-left: 12px;
+        }
+    }
+}
+
+.bookstore-container {
+    max-width: 1240px;
+    margin: auto;
+    padding: 64px 32px;
+}
+
+.bookstore-banner {
+    background: url(../images/bookstore.png) center/cover no-repeat;
+}
